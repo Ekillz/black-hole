@@ -6,7 +6,7 @@
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
 	<RootNamespace></RootNamespace>
-	<ProjectGuid>{9C74961F-C7CB-EA28-3579-0965046D86F6}</ProjectGuid>
+	<ProjectGuid>{4E34B136-DBB7-FD29-D918-76998F7DE8B9}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,6 +46,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\script\bsll_physic.cs" />
+     <Compile Include="Assets\script\camera_follow.cs" />
+     <Compile Include="Assets\script\gravity.cs" />
+     <Compile Include="Assets\script\left_gravity.cs" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>

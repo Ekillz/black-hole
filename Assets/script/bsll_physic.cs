@@ -3,16 +3,23 @@ using System.Collections;
 
 public class bsll_physic : MonoBehaviour {
 
-	public Rigidbody rb;
+	public Rigidbody2D rb;
 	void Start() {
-		rb = GetComponent<Rigidbody>();
-		//rb.AddForce(transform.forward * 700f, ForceMode.Impulse);
+		rb = GetComponent<Rigidbody2D>();
+		rb.AddForce(new Vector3(0, 10f, 0), ForceMode2D.Impulse);
 	}
 	// Update is called once per frame
 	void Update () {
 //		rb.velocity = new Vector3 (0, 0, 500f);
-		float y = Terrain.activeTerrain.SampleHeight(transform.position);
-		transform.position = new Vector3(transform.localPosition.x, y + 6 , transform.localPosition.z);
-		transform.localPosition += new Vector3(0, 0, 5f);
-	}
+//		float y = Terrain.activeTerrain.SampleHeight(transform.position);
+//		transform.position = new Vector3(transform.localPosition.x, y + 6 , transform.localPosition.z);
+		//transform.localPosition += new Vector3(0, 0.05f, 0);
+		Debug.Log (rb.velocity);
+		if (rb.velocity.y > 0)
+			rb.velocity -= new Vector2 (0, 0.005f);
+		if (rb.velocity.x > 0)
+			rb.velocity -= new Vector2 (0.005f, 0);
+		else
+			rb.velocity -= new Vector2 (-0.005f, 0);
+	}	
 }
