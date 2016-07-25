@@ -10,6 +10,11 @@ public class bsll_physic : MonoBehaviour {
 	}
 	// Update is called once per frame
 	void Update () {
+		transform.eulerAngles = new Vector3 (
+			transform.eulerAngles.x,
+			transform.eulerAngles.y,
+			90 + -rb.velocity.x
+			);
 //		rb.velocity = new Vector3 (0, 0, 500f);
 //		float y = Terrain.activeTerrain.SampleHeight(transform.position);
 //		transform.position = new Vector3(transform.localPosition.x, y + 6 , transform.localPosition.z);

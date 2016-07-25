@@ -12,6 +12,6 @@ public class camera_follow : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		transform.localPosition = player.transform.localPosition; 
-		transform.localPosition -= new Vector3 (0, 0, 10);
+		transform.localPosition -= new Vector3 (0, -20, 10);
 	}
 }
