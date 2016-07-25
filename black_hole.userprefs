@@ -1,10 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/bsll_physic.cs">
     <Files>
-      <File FileName="Assets/script/bsll_physic.cs" Line="23" Column="38" />
-      <File FileName="Assets/script/gravity.cs" Line="17" Column="5" />
-      <File FileName="Assets/script/left_gravity.cs" Line="24" Column="2" />
+      <File FileName="Assets/script/bsll_physic.cs" Line="16" Column="6" />
+      <File FileName="Assets/script/gravity.cs" Line="13" Column="39" />
+      <File FileName="Assets/script/left_gravity.cs" Line="13" Column="42" />
+      <File FileName="Assets/script/camera_follow.cs" Line="14" Column="48" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
