@@ -23,7 +23,7 @@ public class bsll_physic : MonoBehaviour {
 		if (rb.velocity.y > 0)
 			rb.velocity -= new Vector2 (0, 0.005f);
 		if (rb.velocity.x > 0)
-			rb.velocity -= new Vector2 (0.005f, 0);
+			rb.velocity -= new Vector2 (0.006f, 0);
 		else
 			rb.velocity -= new Vector2 (-0.005f, 0);
 	}	

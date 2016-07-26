@@ -49,6 +49,7 @@
      <Compile Include="Assets\script\camera_follow.cs" />
      <Compile Include="Assets\script\gravity.cs" />
      <Compile Include="Assets\script\left_gravity.cs" />
+     <Compile Include="Assets\script\wold_controller.cs" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
